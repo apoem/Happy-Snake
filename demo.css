@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.startPage {
+    width: 100%;
+    height: 800px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.startBtn {
+    background-image: url('./img/startGame.png');
+    height: 170px;
+    width:200px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+
+}
+.wrapper {
+    width: 100%;
+    height: 800px;
+    background-image: url('./img/bg.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+.wrapper .leftside {
+    position: absolute;
+    /* left: 0; */
+    width: 24%;
+    border: 1px solid black;
+    height: 100%;
+}
+.leftside img {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.wrapper .main {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+    border: 1px solid black;
+}
+.wrapper .main .header {
+    height: 80px;
+    width: 100%;
+    /* text-align: center; */
+    border: 1px solid blueviolet;
+}
+.header .score {
+    line-height: 80px;
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 20px;
+}
+.main .content {
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    width: 79.5%;
+    height: 36%;
+    border: 1px solid firebrick;
+}
+/* .loser {
+    
+    position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+  
+}
+.loser .con {
+    background-image: url('./img/startP.jpg');
+    background-size: 100% 100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 4px;
+     margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; 
+    position: absolute;
+}
+
+.loser .con .close{
+    position:absolute;
+    top:0;
+    right:0;
+    height:40px;
+    width:40px;
+    background-image: url('img/closeBtn.png');
+    background-size:100% 100%;
+    cursor: pointer;
+}
+.loserScore{
+    display:block;
+    height:30px;
+    width:60px;
+    position:absolute;
+    top:42%;
+    left:40%;
+    color:#222;
+    font-size:30px;
+    font-weight:bolder;
+} */
+.loser{
+    display: none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.con{
+    background-image: url('img/startP.jpg');
+    background-size:100% 100%;
+    height:300px;
+    width:400px;
+    position:absolute;
+    margin:auto;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    border-radius:20px;
+}
+.con .loserScore {
+    position: absolute;
+    z-index: 999;
+    color: rgb(37, 25, 25);
+    font-weight: bolder;
+    font-size: 30px;
+    left: 43%;
+    top: 40%;
+}
+
+.close{
+    position:absolute;
+    top:0;
+    right:0;
+    height:40px;
+    width:40px;
+    background-image: url('img/closeBtn.png');
+    background-size:100% 100%;
+    cursor: pointer;
+}
+.food {
+    background-image: url('./img/apple.png');
+    background-size: 100% 100%;
+}
+.head{
+    background-image: url('img/head.png');
+    background-size:100% 100%;
+}
+.body{
+    background-image: url('img/body.png');
+    background-size:100% 100%;
+}
